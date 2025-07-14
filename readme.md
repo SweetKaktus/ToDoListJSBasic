@@ -16,8 +16,6 @@ Une application simple de To-Do List en **HTML**, **CSS** et **JavaScript**.
 ✅ Marquer une tâche comme effectuée  
 ✅ Supprimer toutes les tâches effectuées  
 
-*(Les fonctionnalités exactes dépendent de ton script.js – adapte cette liste si nécessaire)*
-
 ## 🚀 Mise en place
 
 1. **Télécharge ou clone le projet :**
