@@ -33,18 +33,18 @@ Une application simple de To-Do List en **HTML**, **CSS** et **JavaScript**.
 
 Tu peux modifier les styles dans le fichier styles.css :
 
-    Couleurs principales
+- Couleurs principales
 
-    Taille des polices
+- Taille des polices
 
-    Mise en page responsive
+- Mise en page responsive
 
 N’hésite pas à adapter l’apparence selon tes besoins.
 
 🛠️ Technologies utilisées
 
-    HTML5
+- HTML5
 
-    CSS3
+- CSS3
 
-    JavaScript Vanilla (ES6)
+- JavaScript Vanilla (ES6)
