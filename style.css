@@ -1,0 +1,103 @@
+/* Reset de base */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Corps de page */
+body {
+    background: #f5f5f5;
+    padding: 20px;
+}
+
+/* Structure principale */
+main {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Sections */
+section fieldset {
+    border: 2px solid #4caf50;
+    border-radius: 8px;
+    padding: 15px;
+    background: #fff;
+}
+
+/* Légendes */
+section legend {
+    font-weight: bold;
+    color: #4caf50;
+    padding: 0 10px;
+}
+
+/* Zone d'affichage des tâches */
+.zoneAffichageTachesAFaire,
+.zoneAffichageTachesEffectuees {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+/* Tâches individuelles (supposant que tu ajoutes des div ou des éléments) */
+.zoneAffichageTachesAFaire div,
+.zoneAffichageTachesEffectuees div {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: #fafafa;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Boutons */
+button,
+input[type="submit"] {
+    background: #4caf50;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button:hover,
+input[type="submit"]:hover {
+    background: #45a049;
+}
+
+/* Champ de saisie */
+input[type="text"] {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Formulaire */
+form fieldset {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+/* Responsive */
+@media (max-width: 500px) {
+    form fieldset {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    input[type="text"],
+    input[type="submit"] {
+        width: 100%;
+    }
+}
