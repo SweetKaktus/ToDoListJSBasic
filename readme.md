@@ -23,7 +23,7 @@ Une application simple de To-Do List en **HTML**, **CSS** et **JavaScript**.
 1. **Télécharge ou clone le projet :**
 
    ```bash
-   git clone <url-du-repo>
+   git clone https://github.com/SweetKaktus/ToDoListJSBasic.git
 
 2. **Ouvre index.html dans ton navigateur.**
 
